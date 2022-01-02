@@ -115,16 +115,18 @@ ul{
     }
 
     .fa-rocket{
-        font-size: 2.5vh;
+        font-size: 4vw;
     }
 
     form input{
         height: 5vh;
+        min-height: 30px;
         width: 60vw;
     }
 
     form button{
         height: 5vh;
+        min-height: 30px;
         width: 15vw;
     }
 
