@@ -51,3 +51,91 @@ form button:hover{
     font-size: 3vh;
 }
 
+.todo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.todo{
+    display: flex;
+    height: 6vh;
+    width: 20vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    margin: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.todo li{
+    margin: 0.5rem;
+    flex: 1
+}
+
+.complete-btn,.trash-btn{
+    height: 6vh;
+    width: 3vw;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #007dd1;
+}
+
+.complete-btn:hover,.trash-btn:hover{
+    color: white;
+    background-color: #007dd1;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.fa-trash,
+.fa-check{
+    pointer-events: none;
+}
+
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .header{
+        font-size: 2vh;
+    }
+
+    .fa-rocket{
+        font-size: 2.5vh;
+    }
+
+    form input{
+        height: 5vh;
+        width: 60vw;
+    }
+
+    form button{
+        height: 5vh;
+        width: 15vw;
+    }
+
+    .todo{
+        width: 60vw;
+        height: 5vh;
+    }
+
+    .complete-btn,.trash-btn{
+        height: 5vh;
+        width: 10vw;
+    }
+}
+
