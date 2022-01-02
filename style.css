@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to right top, #114ca6, #007dd1, #00a8d0, #00cda8, #a5f3ab);
+    color: white;
+}
+
+header,
+form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input{
+    width: 20vw;
+    height: 6vh;
+    border: none;
+}   
+
+form button{
+    height: 6vh;
+    width: 3vw;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #007dd1;
+}
+
+form button:hover{
+    color: white;
+    background-color: #007dd1;
+}
+
+.fa-rocket{
+    font-size: 3vh;
+}
