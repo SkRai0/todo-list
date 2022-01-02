@@ -8,6 +8,11 @@ body{
     min-height: 100vh;
     background-image: linear-gradient(to right top, #114ca6, #007dd1, #00a8d0, #00cda8, #a5f3ab);
     color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    font-size: 3vh;
 }
 
 header,
@@ -22,6 +27,9 @@ form input{
     width: 20vw;
     height: 6vh;
     border: none;
+    font-size: large;
+    outline: none;
+    padding: 0.5rem;
 }   
 
 form button{
@@ -42,3 +50,4 @@ form button:hover{
 .fa-rocket{
     font-size: 3vh;
 }
+
